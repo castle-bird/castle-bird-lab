@@ -20,3 +20,4 @@ spring:
     properties:
       hibernate:
         format_sql: true       # 쿼리 포멧팅
+        default_batch_fetch_size: 100 # N+1해결을 위한 배치사이즈
