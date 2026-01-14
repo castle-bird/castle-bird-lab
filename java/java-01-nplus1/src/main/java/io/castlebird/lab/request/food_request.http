@@ -1,0 +1,11 @@
+### 1. 전체 메뉴 조회
+GET http://localhost:8080/foods
+Accept: application/json
+
+### 2. 전체 메뉴 조회 JPQL 사용
+GET http://localhost:8080/foods/JPQL
+Accept: application/json
+
+### 3. 전체 메뉴 조회 EntityGraph
+GET http://localhost:8080/foods/EntityGraph
+Accept: application/json
