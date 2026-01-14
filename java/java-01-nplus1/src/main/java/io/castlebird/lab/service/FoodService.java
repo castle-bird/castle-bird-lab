@@ -60,4 +60,14 @@ public class FoodService {
                 .map(this::convertToDTO)
                 .toList();
     }
+
+    // 전체 조회 (N + 1) 미발생
+    // @EntityGraph 사용
+    public List<FoodDTO> findAllEntityGraph() {
+        List<Food> foods = foodRepository.findAll();
+
+        return foods.stream()
+                .map(this::convertToDTO)
+                .toList();
+    }
 }

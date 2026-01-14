@@ -27,4 +27,11 @@ public class FoodController {
 
         return foodService.findAllJPQL();
     }
+
+    // @EntityGraph 사용. N + 1 미발생
+    @GetMapping("/foods/EntityGraph")
+    public List<FoodDTO> getFoodsEntityGraph() {
+
+        return foodService.findAllEntityGraph();
+    }
 }
