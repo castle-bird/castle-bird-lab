@@ -50,4 +50,14 @@ public class FoodService {
                 .map(this::convertToDTO)
                 .toList();
     }
+
+    // 전체 조회 (N + 1) 미발생
+    // JPQL의 FETCH JOIN 사용
+    public List<FoodDTO> findAllJPQL() {
+        List<Food> foods = foodRepository.findAllJPQL();
+
+        return foods.stream()
+                .map(this::convertToDTO)
+                .toList();
+    }
 }

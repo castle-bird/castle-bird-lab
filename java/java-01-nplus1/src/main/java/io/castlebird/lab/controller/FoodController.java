@@ -20,4 +20,11 @@ public class FoodController {
 
         return foodService.findAll();
     }
+
+    // JPQL의 FETCH JOIN 사용 조회. N + 1 미발생
+    @GetMapping("/foods/JPQL")
+    public List<FoodDTO> getFoodsJPQL() {
+
+        return foodService.findAllJPQL();
+    }
 }
