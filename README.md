@@ -6,8 +6,7 @@
 ---
 
 ## ✍️ 블로그 주소
-- 🔗 [기술 블로그](https://castle-bird-lab.tistory.com/)
-
+- 🔗 [기술 블로그](https://mymyrecord.tistory.com/)
 ---
 
 ## 🧪 Branch/Directory List
