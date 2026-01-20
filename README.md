@@ -1,12 +1,7 @@
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=250&section=header&text=Backend%20Engineer&fontSize=70&fontAlignY=40&animation=twinkling)
+
 # 🏰🦉 castle-bird-lab
 > **"왜 이렇게 동작하는지 알고 쓰자."**
-
-단순히 사용만 하는 것에 그치지 않고, 깊게 파고들어 알기 위해 기록합니다.
-
----
-
-## ✍️ 블로그 주소
-- 🔗 [기술 블로그](https://castle-bird-lab.tistory.com/)
 
 ---
 
